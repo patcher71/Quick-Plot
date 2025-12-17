@@ -1,17 +1,16 @@
 # Quick-Plot
-Used for fast offline analysis of WinLTP sweepfiles 
 
 This program was designed to quickly review electrophysiological recording data performed with the WinLTP software (https://winltp.co.uk/) developed by Dr. Bill Anderson. 
 After selecting the directory containing the data, the program features three tabs summarized as follows:
 
-(1) Sweep Select
+## Sweep Select
 
 This tab allows you to view individual sweep traces (currently, .P0 or .P1 files) and quickly create sweep averages. Up to 4 different averages may be created containing any number of sweeps, and these can be named according to user-defined periods (for example, control, drug, etc.) The average files can then be saved to an Excel spreadsheet for plotting in other programs.
 
 <img width="1548" height="1157" alt="image" src="https://github.com/user-attachments/assets/682ab009-3585-4e8f-89dd-4252a3d3f1b1" />
 
 
-(2) Time Plot
+### Time Plot
 
 This tab reads in the Microsoft Excel (XLS) 'Ampfile' workbook created during either online recording/analysis or following reanalysis of sweeps using the WinLTP reanalysis package. The selected workbook file will be loaded into the main window, and the time base for the x-axis can be selected (index, Time_min, or Time_s). The user can also choose to filter by stimulation (S0 or S1) in the event that the user wants to plot separate figures based on the type of stimulation (either two stimulators, or perhaps electrical vs. optical, etc).
 
@@ -22,7 +21,7 @@ The user can then choose 4 different plots. Typically, for intracellular recordi
 <img width="1542" height="1137" alt="image" src="https://github.com/user-attachments/assets/165528d6-caa9-4bbf-93d1-b56a8df63e92" />
 
 
-(3) Drug Markers
+#### Drug Markers
 
 This feature was added so that the user can quickly add indicators to the plots (and to the workbook) indicating which sweeps drugs were applied.  Up to 4 drug on/drug off options can be selected. Simply select one sweep in each box corresponding to when drugs were turned on or off. Markers will be added to the plot, as well as to any saved workbooks, for further analysis.
 
