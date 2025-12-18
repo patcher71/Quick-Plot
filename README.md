@@ -1,4 +1,4 @@
-# Quick-Plot
+# Quick Plot
 
 This program was designed to quickly review electrophysiological recording data performed with the WinLTP software (https://winltp.co.uk/) developed by Dr. Bill Anderson. 
 After selecting the directory containing the data, the program features three tabs summarized as follows:
