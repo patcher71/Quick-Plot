@@ -29,7 +29,7 @@ This feature was added so that the user can quickly add indicators to the plots 
 <img width="1523" height="1153" alt="image" src="https://github.com/user-attachments/assets/5ca05df0-4636-4a0e-9f3b-ed879708d619" />
 
 
-##### Sweep Reanalysis
+#### Sweep Reanalysis
 
 This feature allows for reanalysis of some simple parameters (peak signal amplitude and Rm).  This is handy for cases where perhaps an artifact disrupted a measurement online and the user wants to quickly re-measure. For peak measrements, cursors are positioned at baseline (typically the first few ms of the trace) and then surrounding the peak responses (up to two, in the case of paired pulse stimulation).  For input resistance (Rm), a baseline window and measurement window is set separately.  These Reanalysis Parameters can be added to a table that can be exported to Excel.  In addition, either the Rm, or peak, or both, can be used to 'replace' the values of the same sweep in the Time Plot table, allowing the user to quickly replace errant values.  
 
