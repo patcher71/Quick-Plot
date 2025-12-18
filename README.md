@@ -10,7 +10,7 @@ This tab allows you to view individual sweep traces (currently, .P0 or .P1 files
 <img width="1548" height="1157" alt="image" src="https://github.com/user-attachments/assets/682ab009-3585-4e8f-89dd-4252a3d3f1b1" />
 
 
-### Time Plot
+## Time Plot
 
 This tab reads in the Microsoft Excel (XLS) 'Ampfile' workbook created during either online recording/analysis or following reanalysis of sweeps using the WinLTP reanalysis package. The selected workbook file will be loaded into the main window, and the time base for the x-axis can be selected (index, Time_min, or Time_s). The user can also choose to filter by stimulation (S0 or S1) in the event that the user wants to plot separate figures based on the type of stimulation (either two stimulators, or perhaps electrical vs. optical, etc).
 
@@ -21,7 +21,7 @@ The user can then choose 4 different plots. Typically, for intracellular recordi
 <img width="1542" height="1137" alt="image" src="https://github.com/user-attachments/assets/165528d6-caa9-4bbf-93d1-b56a8df63e92" />
 
 
-#### Drug Markers
+## Drug Markers
 
 This feature was added so that the user can quickly add indicators to the plots (and to the workbook) indicating which sweeps drugs were applied.  Up to 4 drug on/drug off options can be selected. Simply select one sweep in each box corresponding to when drugs were turned on or off. Markers will be added to the plot, as well as to any saved workbooks, for further analysis.
 
@@ -29,7 +29,7 @@ This feature was added so that the user can quickly add indicators to the plots 
 <img width="1523" height="1153" alt="image" src="https://github.com/user-attachments/assets/5ca05df0-4636-4a0e-9f3b-ed879708d619" />
 
 
-#### Sweep Reanalysis
+## Sweep Reanalysis
 
 This feature allows for reanalysis of some simple parameters (peak signal amplitude and Rm).  This is handy for cases where perhaps an artifact disrupted a measurement online and the user wants to quickly re-measure. For peak measrements, cursors are positioned at baseline (typically the first few ms of the trace) and then surrounding the peak responses (up to two, in the case of paired pulse stimulation).  For input resistance (Rm), a baseline window and measurement window is set separately.  These Reanalysis Parameters can be added to a table that can be exported to Excel.  In addition, either the Rm, or peak, or both, can be used to 'replace' the values of the same sweep in the Time Plot table, allowing the user to quickly replace errant values.  
 
