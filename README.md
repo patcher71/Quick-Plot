@@ -36,4 +36,7 @@ This feature allows for reanalysis of some simple parameters (peak signal amplit
 <img width="1603" height="1131" alt="image" src="https://github.com/user-attachments/assets/afc7ff93-5ab3-4a31-9d26-eec22c361d57" />
 <img width="1310" height="557" alt="image" src="https://github.com/user-attachments/assets/bff23cfd-4e6b-4c49-8a68-0f710bf77fee" />
 
+In version 1.2, a feature was also added to the Sweep Reanalysis tab that allows the user to exclude individual sweeps from the Time Plot.  This is useful if there is a noisy sweep or two in an otherwise good recording, where re-measuring is not possible.  
+
+
 
